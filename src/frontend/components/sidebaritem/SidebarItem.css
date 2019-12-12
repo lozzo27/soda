@@ -1,5 +1,8 @@
 .SidebarItem {
-    text-align: center;
     text-decoration: none;
     color: #222222;
   }
+
+.ListItemText {
+  margin-top: 3vh;
+}

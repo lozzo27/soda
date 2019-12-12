@@ -7,7 +7,7 @@ const SidebarItem = ({item}) => {
   return (
     <a href={item.name} className='SidebarItem'>
       <ListItem button>
-        <ListItemText>
+        <ListItemText className='ListItemText'>
           {item.label}
         </ListItemText>
       </ListItem>

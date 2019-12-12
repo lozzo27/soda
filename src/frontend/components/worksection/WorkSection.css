@@ -1,0 +1,17 @@
+.WorkSection {
+  font-size: 12px;
+}
+
+.WorkSectionDate {
+  text-align: right;
+}
+
+.WorkSectionRole {
+  font-weight: bold;
+}
+
+.WorkOverview {
+  display: grid;
+  font-size: 14px;
+  grid-template-columns: 50% 50%;
+}
