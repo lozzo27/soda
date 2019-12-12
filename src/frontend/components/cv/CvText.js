@@ -79,4 +79,25 @@ const workExperencies = [
   },
 ];
 
-export { skills, introduction, workExperencies };
+const education = [
+  {
+    date: '2000 - 2006',
+    institute: 'Universita di Pisa',
+    course: 'Computer Engineering',
+    subjects: [
+      'Operating systems', 'Mathematical analysis', 'C++',
+      'HTML/CSS/JavaScript', 'Mark: 97 / 110'
+      ],
+  },
+  {
+    date: '1996 – 2000',
+    institute: 'Liceo Scientifico Barsanti e Matteucci',
+    course: 'Computer Engineering',
+    subjects: [
+      'Maths', 'Physics', 'English', 'Italian', 'Latin',
+      'Computer Lab (Pascal)', 'Mark: 90 / 100'
+      ],
+  },
+];
+
+export { skills, introduction, workExperencies, education };

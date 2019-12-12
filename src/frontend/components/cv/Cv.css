@@ -2,8 +2,7 @@
   text-align: left;
   margin: 2%;
   display: grid;
-  grid-template-columns: 40% 60%;
-  
+  grid-template-columns: 50% 50%;
 }
 
 .CvIntroduction {
@@ -14,4 +13,12 @@
   font-size: 20px;
 }
 
+.CvEducation {
+  grid-column: 1 / 3;
+}
+
+.CvEducationInternal {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
 
