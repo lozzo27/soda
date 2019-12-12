@@ -1,7 +1,7 @@
 import React from 'react';
-import CvSection from '../cvsection/CvSection';
+import SkillSection from '../skillsection/SkillSection';
 import WorkSection from '../worksection/WorkSection';
-import { sections, introduction, workExperencies } from '../cv/CvText';
+import { skills, introduction, workExperencies } from '../cv/CvText';
 import './Cv.css';
 
 const Cv = () => {
@@ -10,7 +10,7 @@ const Cv = () => {
       <p className='CvIntroduction'>{introduction}</p>
       <div>
         <p className='CvSectionTitle'>Skills</p>
-        {sections.map(section => <CvSection section={section} />)}
+        {skills.map(skill => <SkillSection skill={skill} />)}
       </div>
       <div>
         <p className='CvSectionTitle'>Work Experience</p>

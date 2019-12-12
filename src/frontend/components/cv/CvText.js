@@ -1,9 +1,10 @@
 const introduction = 'A passionate, hands-on professional, with over 10 years '
   + 'experience in software development covering multiple technologies. I '
   + 'keep atop of new developments within the industry and can adapt quickly '
-  + 'to new coding conventions. I am happy working independently or in a close team environment';
+  + 'to new coding conventions. I am happy working independently or in a '
+  + 'close team environment';
 
-const sections = [
+const skills = [
   {
     body: 'JavaScript',
     list: ['React', 'Redux', 'Node - '],
@@ -78,4 +79,4 @@ const workExperencies = [
   },
 ];
 
-export { sections, introduction, workExperencies };
+export { skills, introduction, workExperencies };
