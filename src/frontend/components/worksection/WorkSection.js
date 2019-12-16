@@ -3,8 +3,9 @@ import './WorkSection.css';
 
 const WorkSection = ({ work }) => {
   const experiences = work.experiences.map(experience => (
-    <li>{experience}</li>
-  ))
+    <li key={experience}>{experience}</li>
+  ));
+
   return (
     <div className='WorkSection'>
       <div className='WorkOverview'>

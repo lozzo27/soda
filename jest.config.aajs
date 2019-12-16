@@ -1,0 +1,7 @@
+const esModules = ['@agm', 'ngx-bootstrap'].join('|');
+
+module.exports = {
+  clearMocks: true,
+  coverageDirectory: "coverage",
+  transformIgnorePatterns: [`/node_modules/(?!${esModules})`],
+};

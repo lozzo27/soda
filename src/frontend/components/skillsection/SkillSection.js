@@ -3,7 +3,7 @@ import './SkillSection.css';
 
 const SkillSection = ({ skill }) => {
   const list = skill.list.map(element => (
-    <li>
+    <li key={element}>
       {element}
     </li>
     ));

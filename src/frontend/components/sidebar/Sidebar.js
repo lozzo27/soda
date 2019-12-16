@@ -12,7 +12,7 @@ function Sidebar() {
   ]
 
   const sideBarItems = items.map(item => <SidebarItem item={item} key={item.name}/>);
-  return <List className="Sidebar" disablePadding dense>
+  return <List className="Sidebar">
     {sideBarItems}
   </List>
 }

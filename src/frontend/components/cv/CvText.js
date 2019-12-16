@@ -7,7 +7,7 @@ const introduction = 'A passionate, hands-on professional, with over 10 years '
 const skills = [
   {
     body: 'JavaScript',
-    list: ['React', 'Redux', 'Node - '],
+    list: ['React', 'Redux', 'Node'],
   },
   {
     body: 'Java',
@@ -92,7 +92,7 @@ const education = [
   {
     date: '1996 – 2000',
     institute: 'Liceo Scientifico Barsanti e Matteucci',
-    course: 'Computer Engineering',
+    course: 'PNI (National IT Plan)',
     subjects: [
       'Maths', 'Physics', 'English', 'Italian', 'Latin',
       'Computer Lab (Pascal)', 'Mark: 90 / 100'
