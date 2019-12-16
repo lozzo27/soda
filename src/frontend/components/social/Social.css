@@ -1,0 +1,9 @@
+.Social {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.SocialItem {
+  margin: 5px;
+}

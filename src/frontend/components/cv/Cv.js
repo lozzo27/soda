@@ -2,6 +2,7 @@ import React from 'react';
 import SkillSection from '../skillsection/SkillSection';
 import WorkSection from '../worksection/WorkSection';
 import EducationSection from '../educationsection/EducationSection';
+import Social from '../social/Social';
 import { skills, introduction, workExperencies, education } from '../cv/CvText';
 import './Cv.css';
 
@@ -22,6 +23,9 @@ const Cv = () => {
         <div className='CvEducationInternal'>
           {education.map(e => <EducationSection education={e} />)}
         </div>
+      </div>
+      <div>
+        <Social />
       </div>
     </div>
   );
