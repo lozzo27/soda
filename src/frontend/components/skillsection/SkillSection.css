@@ -7,3 +7,14 @@ ul {
   font-size: 16px;
   margin: 5%;
 }
+
+.SkillGrid {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin: 4px;
+}
+
+.Skill {
+  width: 100%;
+  background-color: #ddd;
+}

@@ -7,23 +7,82 @@ const introduction = 'A passionate, hands-on professional, with over 10 years '
 const skills = [
   {
     body: 'JavaScript',
-    list: ['React', 'Redux', 'Node'],
+    color: '#FFBCA0',
+    list: [{
+      skill: 'React',
+      level: 85,
+    },{
+      skill: 'Redux',
+      level: 85,
+    },{
+      skill: 'Node',
+      level: 80,
+    }],
   },
   {
     body: 'Java',
-    list: ['Spring', 'Hibernate', 'Maven', 'JUnit'],
+    color: '#90E580',
+    list: [{
+      skill: 'Spring',
+      level: 70,
+    },{
+      skill: 'Hibernate',
+      level: 80,
+    },{
+      skill: 'Maven',
+      level: 90,
+    },{
+      skill: 'JUnit',
+      level: 80,
+    }],
   },
   {
     body: 'Ruby',
-    list: ['Rspec', 'Sinatra'],
+    color: '#F7F1AF',
+    list: [{
+      skill: 'Rspec',
+      level: 70,
+    },{
+      skill: 'Sinatra',
+      level: 65,
+    }],
   },
   {
     body: 'Database',
-    list: ['SQLServer', 'DynamoDB', 'PostgreSQL', 'MySQL', 'MongoDB'],
+    color: '#AFF7F0',
+    list: [{
+      skill: 'SQLServer',
+      level: 90,
+    },{
+      skill: 'DynamoDB',
+      level: 70,
+    },{
+      skill: 'PostgreSQL',
+      level: 75,
+    },{
+      skill: 'MySQL',
+      level: 80,
+    },{
+      skill: 'MongoDB',
+      level: 80,
+    }],
   },
   {
     body: 'AWS',
-    list: ['EC2', 'Route53', 'SQS', 'S3'],
+    color: '#E1C3F5',
+    list: [{
+      skill: 'EC2',
+      level: 85,
+    },{
+      skill: 'Route53',
+      level: 80,
+    },{
+      skill: 'SQS',
+      level: 90,
+    },{
+      skill: 'S3',
+      level: 90,
+    }],
   },
 ];
 
